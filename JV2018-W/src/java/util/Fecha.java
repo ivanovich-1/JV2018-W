@@ -45,8 +45,7 @@ public class Fecha implements Serializable {
 	
 	@SuppressWarnings("deprecation")
 	public Fecha(Date date) {
-		this(date.getYear(), date.getMonth(), date.getDate(), 
-				date.getHours(), date.getMinutes(), date.getSeconds());
+		this(date.getYear(), date.getMonth(), date.getDate());
 	}
 	
 	public Fecha(long marcaTiempo) {
